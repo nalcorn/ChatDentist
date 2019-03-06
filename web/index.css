@@ -1,0 +1,71 @@
+/***********************************************************************
+ * lab 8
+ * Class: Java III
+ * Quarter: Fall 2015
+ * Instructor: Ron Enz
+ * Description:  Dentist Office Lab
+ * Due: 02/04/2016
+ * @author Nicholas Alcorn
+ * @version 1.0
+ * 
+ * By turning in this code, I Pledge:
+ * 1. That I have completed the programming assignment independently.
+ * 2. I have not copied the code from a student or any source.
+ * 3. I have not given my code to any student.
+ * 
+ ***********************************************************************/
+
+header{
+    background: url('banner-cosmetic-dentistry.jpg') no-repeat center top;
+    height: 150px;
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #809fff url('background.jpg') no-repeat center center;
+}
+
+img{
+    padding-left: 580px;
+}
+
+#leftcolumn { float: left;
+	width: 200px;
+}
+div#leftcolumn a { display: block;
+	margin: 0 15px 15px 15px;
+        width: 90px;
+        padding-left:10px;
+        padding-right:10px;
+        border: 3px inset #cccccc;
+        text-decoration:none;
+}
+#leftcolumn ul {list-style-type: none;
+                margin-top: 0;
+                margin-left: 0;
+                padding-left: 0;
+}
+#leftcolumn a:link { background-color: #003300;
+                     color: #ffffcc;
+}
+#leftcolumn a:visited { background-color: #003300;
+                     color: #ffffff;
+}
+#leftcolumn a:focus {background-color: #000000;
+                     color: #cccccc;
+                     border: 3px outset #cccccc;
+}
+#leftcolumn a:hover { background-color: #000033;
+                     color: #ffffcc;
+                     border: 3px outset #cccccc;
+}
+#leftcolumn a:active {background-color: #000033;
+                     color: #cccccc;
+                     border: 3px outset #cccccc;
+}
+#rightcolumn {margin-left: 400px;
+	padding: 100px 20px 20px 0;
+}
